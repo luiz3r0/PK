@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".view.activity.TelaPokemonActivity"
+    tools:showIn="@layout/activity_tela_pokemon">
+    
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_activity_tela_pokemon_content"
+        style="@style/StyleScrollbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="8dp"
+        tools:listfooter="@layout/activity_tela_pokemon_lista_pokemon"
+        tools:listheader="@layout/activity_tela_pokemon_lista_pokemon"
+        tools:listitem="@layout/activity_tela_pokemon_lista_pokemon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

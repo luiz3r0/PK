@@ -1,0 +1,68 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.PK" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/DarkRed</item>
+        <item name="android:colorBackground">@color/DarkRed</item>
+        <item name="android:windowBackground">@color/DarkRed</item>
+        <item name="colorAccent">@color/White</item>
+        <item name="android:statusBarColor">@color/DarkRed</item>
+        <item name="android:fontFamily">@font/sansserif</item>
+        <item name="android:navigationBarColor">@color/DarkRed</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="Theme.TelaAbertura" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/DarkRed</item>
+        <item name="android:colorBackground">@color/DarkRed</item>
+        <item name="android:windowBackground">@drawable/drawable_tela_abertura</item>
+        <item name="colorAccent">@color/White</item>
+        <item name="android:statusBarColor">@color/DarkRed</item>
+        <item name="android:fontFamily">@font/sansserif</item>
+        <item name="android:navigationBarColor">@color/DarkRed</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="Theme.TelaPokemon" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/DarkRed</item>
+        <item name="android:colorBackground">@color/DarkRed</item>
+        <item name="android:windowBackground">@color/DarkRed</item>
+        <item name="colorAccent">@color/White</item>
+        <item name="android:statusBarColor">@color/DarkRed</item>
+        <item name="android:fontFamily">@font/sansserif</item>
+        <item name="android:navigationBarColor">@color/DarkRed</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="Theme.TelaInformacoesPokemon" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/DarkRed</item>
+        <item name="android:colorBackground">@color/DarkRed</item>
+        <item name="android:windowBackground">@color/DarkRed</item>
+        <item name="colorAccent">@color/White</item>
+        <item name="android:statusBarColor">@color/DarkRed</item>
+        <item name="android:fontFamily">@font/sansserif</item>
+        <item name="android:navigationBarColor">@color/DarkRed</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="Theme.PK.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.PK.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="FonteAndroid" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">@font/android</item>
+        <item name="android:textSize" tools:ignore="SpUsage">20dp</item>
+        <item name="android:textColor">@color/White</item>
+    </style>
+
+    <style name="StyleScrollbar">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/thumb</item>
+        <item name="android:scrollbarTrackVertical">@drawable/track</item>
+        <item name="android:scrollbarSize">4dp</item>
+        <item name="android:scrollbarFadeDuration">300</item>
+    </style>
+
+</resources>
