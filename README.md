@@ -28,7 +28,7 @@
 1.8 Design
 . CARDVIEW
 . MATERIAL
-1.9 TEST
+1.9 Test
 . JUNIT
 . ESPRESSO
 
